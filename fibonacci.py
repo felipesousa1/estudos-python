@@ -7,4 +7,4 @@ def Fibonacci (n):
     return Fibonacci(n-2) + Fibonacci (n-1)
 
 for i in range (1,n+1):
-    print(Fibonacci(i))
+    print(i,Fibonacci(i),end=" ",sep="-")
